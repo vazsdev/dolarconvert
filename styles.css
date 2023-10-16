@@ -1,0 +1,554 @@
+/*   TODO CSS MEUS OVO!!!!!!! (o′┏▽┓｀o)   */
+
+
+body {
+    background-color: #ffffff; /* tema claro */
+    color: rgb(14, 14, 16); /* cor do texto no tema claro */
+    border: 1px solid rgb(147, 42, 173);
+    ::selection {
+        background-color: rgb(147, 42, 173);
+        color: white;
+    }
+    #pode-interessar {
+        width: 300px;
+        max-width: 100%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 100%;
+        border-radius: 10px;
+        font-family: 'Times New Roman', Times, serif;
+        color: rgb(110, 0, 138);
+        background: rgb(200, 200, 200);
+        padding: 1%;
+    }
+    #historiadolar {
+        background-color: white;
+        color: black;
+        padding: 8%;
+        width: 150vh;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100%;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        border: 1px solid black;
+        box-sizing: border-box;
+        font-size: x-large;
+        text-align: center;
+        transition: 0.3s;
+    }
+    #btncube {
+        width: 70px;
+        max-width: 70px;
+        margin-top: 5px;
+        justify-content: center;
+        margin: 0 10px;
+        display: inline-block;
+        font-size: 100%;
+        border-radius: 10px;
+        font-family: 'Times New Roman', Times, serif;
+        color: black;
+        background: rgb(200, 200, 200);
+        border: 0.5px solid transparent;
+    }
+    #btncontact {
+        width: 70px;
+        max-width: 70px;
+        margin-top: 5px;
+        justify-content: center;
+        margin: 0 10px;
+        display: inline-block;
+        font-size: 100%;
+        border-radius: 10px;
+        font-family: 'Times New Roman', Times, serif;
+        color: black;
+        background: rgb(200, 200, 200);
+        border: 0.5px solid transparent;
+    }
+    #themeButton {
+        width: 70px;
+        max-width: 70px;
+        margin-top: 5px;
+        justify-content: center;
+        margin: 0 10px;
+        display: inline-block;
+        font-size: 100%;
+        border-radius: 10px;
+        font-family: 'Times New Roman', Times, serif;
+        color: black;
+        background: rgb(200, 200, 200);
+        border: 0.5px solid transparent;
+    }
+    #themeButton:hover {
+        border-radius: 10px;
+        background: rgb(150, 150, 150);
+    }
+    #btncontact:hover {
+        border-radius: 10px;
+        background: rgb(150, 150, 150);
+    }
+    #btncube:hover {
+        border-radius: 10px;
+        background: rgb(150, 150, 150);
+    }
+
+    #amount-label {
+        background: transparent;
+        margin-left: 5%;
+        font-family: 'Times New Roman', Times, serif;
+        color: rgb(147, 42, 173);
+        font: bold;
+        font-size: larger;
+    }
+
+    #btnconvert {
+        width: 300px;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 100%;
+        border-radius: 10px;
+        font-family: 'Times New Roman', Times, serif;
+        color: green;
+        background: rgb(200, 200, 200);
+        border: 0.5px solid transparent;
+        padding: 1%;
+    }
+    #btnconvert:hover {
+        width: 300px;
+        max-width: 100%;
+        border-radius: 10px;
+        background: rgb(150, 150, 150);
+    }
+
+    #titulo-dolarhistoria {
+        padding: 2%;
+        margin-left: 25%;
+        width:50%;
+        border-radius: 10px;
+        background: rgb(200, 200, 200);
+        box-sizing: border-box;
+        font-size: xx-large;
+        color: rgb(110, 0, 138);
+        text-align: center;
+        transition: 0.3s;
+    }
+
+    #myChart {
+        height: 60vh;
+        min-height: 60vh;
+        min-width: 60vh;
+        width: 99%;
+        color: green;
+    }
+    #myChart-box {
+        background-color: transparent;
+        border-radius: 20px;
+        color: green;
+    }
+  }
+  
+  body.dark-theme {
+    background-color: rgb(14, 14, 16); /* tema escuro */
+    color: #ffffff; /* cor do texto no tema escuro */
+    ::selection {
+        background-color: rgb(147, 42, 173);
+        color: black;
+    }
+    #pode-interessar {
+        width: 300px;
+        max-width: 100%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 100%;
+        border-radius: 10px;
+        font-family: 'Times New Roman', Times, serif;
+        color: rgb(135, 1, 168);
+        background: rgb(30, 30, 30);
+        padding: 1%;
+    }
+    #historiadolar {
+        background-color: rgb(14, 14, 16);
+        color: white;
+        padding: 8%;
+        width: 150vh;
+        border: 1px solid white;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100%;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        box-sizing: border-box;
+        font-size: x-large;
+        text-align: center;
+        transition: 0.3s;
+    }
+    #btncontact {
+        background-color: rgb(110, 0, 138);
+        width: 70px;
+        max-width: 70px;
+        margin-top: 5px;
+        justify-content: center;
+        margin: 0 10px;
+        display: inline-block;
+        font-size: 100%;
+        border-radius: 10px;
+        font-family: 'Times New Roman', Times, serif;
+        background: rgb(41, 41, 41);
+        color: rgb(204, 0, 255);
+        border: 0.5px solid transparent;
+    }
+    #themeButton {
+        background-color: rgb(30, 30, 30);
+        width: 70px;
+        max-width: 70px;
+        margin-top: 5px;
+        justify-content: center;
+        align-items: center;
+        margin: 0 10px;
+        display: inline-block;
+        font-size: 100%;
+        border-radius: 10px;
+        font-family: 'Times New Roman', Times, serif;
+        color: rgb(204, 0, 255);
+        background: rgb(41, 41, 41);
+        border: 0.5px solid transparent;
+    }
+    #btncube {
+        background-color: rgb(30, 30, 30);
+        width: 70px;
+        max-width: 70px;
+        margin-top: 5px;
+        justify-content: center;
+        margin: 0 10px;
+        display: inline-block;
+        font-size: 100%;
+        border-radius: 10px;
+        font-family: 'Times New Roman', Times, serif;
+        color: rgb(204, 0, 255);
+        background: rgb(41, 41, 41);
+        border: 0.5px solid transparent;
+    }
+    #themeButton:hover {
+        background-color: rgb(30, 30, 30);
+        border-radius: 10px;
+        border: 0.5px solid transparent;
+    }
+    #btncontact:hover {
+        background-color: rgb(30, 30, 30);
+        border-radius: 10px;
+        border: 0.5px solid transparent;
+    }
+    #btncube:hover {
+        background-color: rgb(30, 30, 30);
+        border-radius: 10px;
+        border: 0.5px solid transparent;
+    }
+
+    #amount-label {
+        background: transparent;
+        margin-left: 5%;
+        font-family: 'Times New Roman', Times, serif;
+        color: rgb(147, 42, 173);
+        font: bold;
+        font-size: larger;
+    }
+
+    #btnconvert {
+        width: 300px;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 100%;
+        border-radius: 10px;
+        font-family: 'Times New Roman', Times, serif;
+        color: rgb(0, 255, 98);
+        background: rgb(41, 41, 41);
+        border: 0.5px solid transparent;
+        padding: 1%;
+    }
+    #btnconvert:hover {
+        width: 300px;
+        max-width: 100%;
+        border-radius: 10px;
+        background: rgb(30, 30, 30);
+    }
+
+    #titulo-dolarhistoria {
+        padding: 2%;
+        margin-left: 25%;
+        width:50%;
+        border-radius: 10px;
+        background: rgb(30, 30, 30);
+        box-sizing: border-box;
+        font-size: xx-large;
+        color: rgb(135, 1, 168);
+        text-align: center;
+        transition: 0.3s;
+    }
+    
+    #myChart {
+        height: 60vh;
+        min-height: 60vh;
+        min-width: 60vh;
+        width: 99%;
+        color: green;
+    }
+    #myChart-box {
+        background-color: transparent;
+        border-radius: 20px;
+        color: green;
+    }
+  }
+  
+
+#buttons {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#link-noticia {
+    color: black;
+    font-size: 15px;
+    text-align: center;
+}
+#link-noticia:hover {
+    background-color: rgb(51, 51, 51);;
+    color: rgb(255, 255, 255);
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 1%;
+}
+#link-hotmart {
+    width: 90%;
+    height: 10%;
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 3%;
+    margin-top: 40%;
+    margin-left: 2%;
+    display: flex;
+    font-size: larger;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    color: rgb(110, 0, 138);
+    transition: 0.1s;
+}
+#link-hotmart:hover {
+    width: 99,9%;
+    height: 10%;
+    border-radius: 5px;
+    padding: 3%;
+    display: flex;
+    font-size: larger;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    color: rgb(0, 255, 42);
+    transition: 0.1s;
+}
+header {
+    width: 98%;
+    height: 40px;
+    padding: 1%;
+    max-width: 100%;
+    margin: auto;
+    background-color: transparent;
+    font-size: xx-large;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    text-align: center;
+    color: rgb(0, 255, 34);
+}
+
+
+#background {
+    margin-top: 15%;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: bold;
+    width: 100%;
+    max-width: 100%;
+}
+
+#converter-container { /* Container para ajustar no meio da tela as conversões */
+    justify-content: center;
+    text-align: center;
+}
+#currency {
+    background-color: transparent;
+    max-width: 100%;
+    font-size: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid transparent;
+    color: orangered;
+    padding: 2%;
+}  
+#currency:hover {
+    border: 1px solid rgb(110, 0, 138);
+}  
+
+#option {
+    background: transparent;
+    color: black;
+}
+
+#amount {
+    background: transparent;
+    padding: 2.65%;
+    width: 50%;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    font-size: xx-large;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(0, 255, 21);
+    text-align: center;
+    border: 1px solid gray;
+    transition: 0.3s;
+}
+#amount:hover {
+    background: transparent;
+    padding: 2.65%;
+    width: 50%;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    font-size: xx-large;
+    color: rgb(147, 42, 173);
+    text-align: center;
+    border: 1px solid rgb(147, 42, 173);
+    transition: 0.3s;
+}
+
+#result:hover {
+    border: 1px solid rgb(110, 0, 138);
+}
+
+#historia {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 300px;
+    margin: 5%;
+}
+
+#texto-final {
+    padding: 2%;
+    width: 100vh;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    border: 1px solid gray;
+    box-sizing: border-box;
+    font-size: xx-large;
+    text-align: center;
+    transition: 0.3s;
+}
+#texto-final:hover {
+    border: 1px solid rgb(110, 0, 138);
+}
+#texto-final-p {
+    background-color: transparent;
+    padding: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: auto;
+    width:90%;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 20px;
+    transition: transform 0.3s ease;
+    text-align: left;
+    transition: 0.3s;
+}
+#texto-final-p-final {
+    padding: 2%;
+    width: 99%;
+    border-radius: 5px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    box-shadow: 0 0 5px rgb(255, 255, 255);
+    font-size: xx-large;
+    text-align: right;
+}
+#texto-final-p-final:hover {
+    border: 1px solid rgb(110, 0, 138);
+    box-shadow: 0 0 5px rgb(110, 0, 138);
+}
+
+#footer-container {
+    bottom: 0;
+}
+#copy-button {
+    font-size: 16px;
+    border-radius: 15px;
+    border: 1px solid white;
+    width: 38px;
+    height: 40px;
+    text-align: center;
+    background: transparent;
+}
+#copy-button:hover {
+    border: 1px solid rgb(110, 0, 138);
+    background: rgb(12, 12, 12);
+}
+
+#news-container {
+    padding: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 140vh;
+    max-width: 99%;
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: 0 0 5px rgb(30, 30, 30);
+    font-size: large;
+    text-align: left;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+
+
+footer {
+    padding: 1%;
+    font-size:smaller;
+    text-align: center;
+    color: white;
+    background-color: black;
+    bottom: 0;
+    padding: 1%;
+    width: 100%;
+    max-width: 100%;
+}
+#btnTopo {
+    display: flex;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px;
+    font-size: larger;
+    background-color: rgb(110, 0, 138);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  #return_top {
+    text-align: center;
+    font-size: x-small;
+  }
+  
+#btnTopo:hover {
+    background-color: rgb(61, 1, 77);
+}
+  

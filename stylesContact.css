@@ -1,0 +1,286 @@
+/*   TODO CSS MEUS OVO!!!!!!! (o′┏▽┓｀o)   */
+::selection {
+    background-color: rgb(110, 0, 138);
+    color: black;
+}
+#h-contact {
+    display: block;
+    background-color: rgb(30, 30, 30);
+    width: 250px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    justify-content: center;
+    font-size: 100%;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    background: transparent;
+}
+#p-contact {
+    display: block;
+    width: 330px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    justify-content: center;
+    font-size: 100%;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    background: transparent;
+}
+body {
+    background-color: #ffffff; /* tema claro */
+    color: rgb(14, 14, 16); /* cor do texto no tema claro */
+    ::selection {
+        background-color: rgb(147, 42, 173);
+        color: white;
+    }
+    .container {
+        display: contents;
+        margin-top: 15px;
+        justify-content: center;
+        align-items: center;
+        font: bold;
+        width: 90%;
+        max-width: 100%;
+        background-color: rgb(30, 30, 30);
+        max-width: 100%;
+        font-size: 100%;
+        border-radius: 10px;
+        font-family: 'Times New Roman', Times, serif;
+        color: black;
+        background: transparent;
+        border: 0.5px solid green;
+        padding: 1%;
+    }
+    #themeButton {
+        background-color: rgb(30, 30, 30);
+        width: 120px;
+        max-width: 120px;
+        margin-top: 5px;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        font-size: 100%;
+        border-radius: 10px;
+        font-family: 'Times New Roman', Times, serif;
+        color: black;
+        background: transparent;
+        border: 0.5px solid black;
+    }
+    #themeButton:hover {
+        background-color: gray;
+        width: 120px;
+        max-width: 100%;
+        border-radius: 10px;
+        border: 0.5px solid green;
+    }
+
+    label {
+        background-color: rgb(65, 65, 65);
+        width: 300px;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 15px;
+        font-size: 100%;
+        border-radius: 10px;
+        font-family: 'Times New Roman', Times, serif;
+        color: white;
+        background: transparent;
+    }
+    #h-contact {
+        color: black;
+    }
+    #p-contact {
+        color: black;
+    }
+}
+  body.dark-theme {
+    background-color: rgb(14, 14, 16); /* tema escuro */
+    color: #ffffff; /* cor do texto no tema escuro */
+    ::selection {
+        background-color: rgb(147, 42, 173);
+        color: black;
+    }
+    .container {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15px;
+        justify-content: center;
+        align-items: center;
+        font: bold;
+        width: 90%;
+        max-width: 100%;
+        max-width: 100%;
+        font-size: 100%;
+        border-radius: 10px;
+        font-family: 'Times New Roman', Times, serif;
+        color: rgb(147, 42, 173);
+        background: transparent;
+        border: 0.5px solid green;
+        padding: 1%;
+    }
+    #themeButton {
+        background-color: rgb(30, 30, 30);
+        width: 120px;
+        max-width: 120px;
+        margin-top: 5px;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        font-size: 100%;
+        border-radius: 10px;
+        font-family: 'Times New Roman', Times, serif;
+        color: rgb(0, 255, 98);
+        background: transparent;
+        border: 0.5px solid green;
+    }
+    #themeButton:hover {
+        background-color: rgb(30, 30, 30);
+        width: 120px;
+        max-width: 100%;
+        border-radius: 10px;
+        border: 0.5px solid gray;
+    }
+
+    label {
+        background: transparent;
+        width: 300px;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 15px;
+        font-size: 100%;
+        border-radius: 10px;
+        font-family: 'Times New Roman', Times, serif;
+        color: white;
+        background: transparent;
+    }
+
+    #h-contact {
+        color: rgb(110, 0, 138);
+    }
+    #p-contact {
+        color: rgb(110, 0, 138);
+    }
+  }
+
+header {
+    width: 98%;
+    height: 40px;
+    padding: 1%;
+    max-width: 100%;
+    margin: auto;
+    background-color: transparent;
+    font-size: xx-large;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    text-align: center;
+    color: rgb(0, 255, 34);
+    cursor: pointer;
+}
+
+input {
+    background: transparent;
+    width: 300px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    font-size: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    color: green;
+    border: 2px solid black;
+}
+input:hover {
+    border: 2px solid rgb(110, 0, 138);
+}
+
+textarea {
+    background-color: transparent;
+    width: 300px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    font-size: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    color: green;
+    border: 2px solid black;
+}
+textarea:hover {
+    border: 2px solid rgb(110, 0, 138);
+}
+
+#enviaremail-btn {
+    background: transparent;
+    width: 80px;
+    max-width: 100%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    font-size: 100%;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(159, 0, 199);
+    border: 0.5px solid rgb(110, 0, 138);
+    padding: 1%;
+}
+#enviaremail-btn:hover {
+    max-width: 100%;
+    border-radius: 10px;
+    color: orangered;
+    border: 0.5px solid orangered;
+}
+#btnvoltar {
+    background-color: rgb(30, 30, 30);
+    width: 300px;
+    max-width: 100%;
+    height: 20px;
+    max-height: 20px;
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    font-size: 100%;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    color: orangered;
+    background: transparent;
+    border: 0.5px solid orangered;
+}
+#btnvoltar:hover {
+    background-color: transparent;
+    max-width: 100%;
+    border-radius: 10px;
+    color: rgb(110, 0, 138);
+    border: 0.5px solid rgb(110, 0, 138);
+}
+
+#form-div {
+    margin: 5%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    background: transparent;
+}
+footer {
+    padding: 1%;
+    width:97%;
+    max-width: 97%;
+    font-size:smaller;
+    color: rgba(255, 255, 255);
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+}
