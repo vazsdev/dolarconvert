@@ -162,7 +162,7 @@ const chart = new Chart(ctx, {
 createChart();
 
 
-/*
+
 // Função para fazer a requisição à API do GNews e exibir as notícias
 function showNews() {
   const apiKey = 'c8c3c2fb493df80146283287b01c1cc2';
